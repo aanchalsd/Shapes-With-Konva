@@ -4,9 +4,9 @@
 
 # How to run it:
 
-1. Simply go to aanchalsd.github.io/configshapes
-                    OR
-2. Download the zipped code and open the index.html in your browser.
+Option 1. Simply go to aanchalsd.github.io/configshapes
+                    
+Option 2. Download the zipped code and open the index.html in your browser.
 
 # Steps:
 
