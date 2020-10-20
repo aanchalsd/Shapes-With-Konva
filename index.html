@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/> <!-- 'nano' theme -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <script src="https://unpkg.com/konva@7.1.3/konva.min.js"></script>
+      
+      <title>Config Shapes</title>
+   </head>
+
+    <body onload="myFunction()">
+      <div class="contain">
+        
+        <div id="section1">
+          <div class="firstSec">
+          <h3>Pick A Color:</h3>
+          <div class="color-picker" style=""></div>
+          </div>
+        </div>
+
+      <div id="section2">
+        <div class="firstSec">
+        <h3>Enter Text:</h3>
+        <input name="searchTxt" type="text" maxlength="7" style="text-transform: uppercase" id="searchTxt" class="searchField"/>
+        </div>
+      </div>
+
+
+      <div id="section3">
+        <div class="secSec">
+        <h3>Select Shape:</h3>
+        <select class="form-control" id="selectShape">
+          <option>Select Shape</option>
+          <option id="Rect">Rectangle</option>
+          <option id="Cir">Circle</option>
+          <option id="Sqr">Square</option>
+          <option id="Tri">Triangle</option>
+        </select>
+      </div>
+        <button type="button" onClick="refreshPage()" class="btn btn-warning">Refresh</button> 
+      </div>
+
+    <div id="section4">
+      <div id="contain"></div>
+      <div id="menu">
+        <ion-icon name="trash-outline" id="delete-button"></ion-icon>
+      </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="main.js"></script>
+
+
+
+  </body>
+</html>

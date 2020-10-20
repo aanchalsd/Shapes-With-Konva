@@ -1,0 +1,87 @@
+body{
+      font-family: Lato;
+      font-weight: 600;
+      position: relative;
+      background-image: linear-gradient(to right, #eecda3, #ef629f);
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;  
+      }
+
+  #section1 {
+    background-image: linear-gradient(to right, #ddd6f3, #faaca8);
+  }
+
+  #section2 {
+    background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  }
+
+  #section3 {
+    background-image: linear-gradient(to right, #ffd89b, #19547b);
+  }
+
+  #section4 {
+    background-image: linear-gradient(to right, #f5f7fa, #c3cfe2);
+
+  }
+   
+  #section2, .secSec{
+    padding: 20px;
+  }
+
+  input{
+    color: blue;
+  }
+
+  .konvajs-content {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  .pickr {
+    display: inline;
+  }
+
+  #menu {
+    display: none;
+    position: absolute;
+    width: 60px;
+    background-color: transparent;
+    box-shadow: 0 0 5px grey;
+    border-radius: 3px;
+  }
+
+   #menu ion-icon {
+    border: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  #menu ion-icon:hover {
+    cursor: -webkit-grabbing; cursor: grabbing;
+  }
+
+  .firstSec label{
+    display: block;
+  }
+      
+
+  #section1, #section2, #section3, #section4{
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+  }
+
+  @media (min-width: 500px) {
+    #section1, #section2, #section3, #section4 {
+      width: 450px;
+    }
+  }
