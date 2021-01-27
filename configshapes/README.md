@@ -1,5 +1,3 @@
-# aanchalsd.github.io/configshapes
-
 # Created using Javascript, HTML5, CSS3, KonvaJS, Pickr, Bootstrap
 
 # How to run it:
